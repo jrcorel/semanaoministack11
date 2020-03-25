@@ -1,0 +1,38 @@
+/**
+ * Rota / Recurso
+ */
+
+/**
+ * Métodos HTTP:
+ * 
+ * GET: Buscar/listar uma informação do back-end
+ * POST: Criar uma informação no back-end
+ * PUT: Alterar uma informação no back-end
+ * DELETE: Deletar uma informação no back-end
+ */
+
+
+/**
+ * Tipos de parâmetros
+ * 
+ * Query: Parametros nomeados enviados na rota após o simbolo de "?" (Servem para filtros, repaginação)
+ * 
+ * Route params: Parametros utilizados para identificar recursos.
+ * 
+ * Request Body: Corpo da resuisição, utilizando para criar ou alterar recursos
+ */
+
+ /**
+  * Banco de Dados
+  * 
+  * SQL, MySQL, SQLite, POstgreSQL, Microsoft SQL Server 
+  * NoSQL, MongoDB, CouchDB, etc
+  */
+
+  /**
+   * Driver do banco de dados: SELECT * FROM users
+   * 
+   * Query Builder: table('users').select('*').where()
+   * 
+   * Vamos usar o Knex.js
+   */
